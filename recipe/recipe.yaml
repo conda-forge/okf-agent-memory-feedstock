@@ -1,5 +1,5 @@
 context:
-  version: "0.4.4"
+  version: "0.5.0"
 
 package:
   name: okf-agent-memory
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/okf-memory/okf-agent-memory/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 057bc451eb334aa312ff56741318d3d0ae1c619fd867479cecb95325dca9f6d0
+  sha256: fd797595dd65b8e97b4e84a6ac31c4be7a1001e4d9fc48b5edf71b2b05a9c336
 
 build:
   number: 0
@@ -32,7 +32,7 @@ tests:
       - okf help validate
 
 about:
-  homepage: https://github.com/okf-memory/okf-agent-memory
+  homepage: https://okf-memory.dev
   summary: Domain-neutral, git-native persistent project memory for AI agents based on the Open Knowledge Format (OKF) v0.2
   description: |
     OKF Agent Memory provides the `okf` CLI and MCP server for maintaining a
@@ -51,3 +51,4 @@ about:
 extra:
   recipe-maintainers:
     - lsetiawan
+    - sknr
