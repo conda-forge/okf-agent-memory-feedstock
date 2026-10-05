@@ -3,7 +3,7 @@ About okf-agent-memory-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/okf-agent-memory-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/okf-memory/okf-agent-memory
+Home: https://okf-memory.dev/
 
 Package license: MIT
 
@@ -232,4 +232,5 @@ Feedstock Maintainers
 =====================
 
 * [@lsetiawan](https://github.com/lsetiawan/)
+* [@sknr](https://github.com/sknr/)
 
