@@ -10,7 +10,7 @@ source:
   sha256: 763da372868a820705059997f342b0412a91b58d21aecf05bae285487d5b1ffb
 
 build:
-  number: 0
+  number: 1
   script:
     - go-licenses save ./cmd/okf --save_path library_licenses --ignore github.com/okf-memory/okf-agent-memory
     - if: not win
@@ -23,6 +23,7 @@ build:
 requirements:
   build:
     - ${{ compiler('go-nocgo') }}
+    - ${{ stdlib('c') }}
     - go-licenses
 
 tests:
