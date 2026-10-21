@@ -1,5 +1,5 @@
 context:
-  version: "0.6.2"
+  version: "0.7.0"
 
 package:
   name: okf-agent-memory
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/okf-memory/okf-agent-memory/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 763da372868a820705059997f342b0412a91b58d21aecf05bae285487d5b1ffb
+  sha256: ce2843e3f0b62aaa5b186320af9104f6340986f8f183fcfaddd750b073af66bf
 
 build:
-  number: 1
+  number: 0
   script:
     - go-licenses save ./cmd/okf --save_path library_licenses --ignore github.com/okf-memory/okf-agent-memory
     - if: not win
